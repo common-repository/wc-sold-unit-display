@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wc Sold Unit Display\n"
+"POT-Creation-Date: 2021-07-15 18:05+0700\n"
+"PO-Revision-Date: 2021-07-15 18:46+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-sold-unit-display.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wsud-display.php:41 includes/class-wsud-settings.php:68
+#: includes/class-wsud-settings.php:69
+msgid "already sold"
+msgstr "ขายแล้ว"
+
+#: includes/class-wsud-display.php:42 includes/class-wsud-settings.php:80
+#: includes/class-wsud-settings.php:81
+msgid "units"
+msgstr "ชิ้น"
+
+#: includes/class-wsud-settings.php:17
+msgid "Unit Sold Display"
+msgstr "Unit Sold Display"
+
+#: includes/class-wsud-settings.php:31
+msgid "Unit Sold Display Settings"
+msgstr "ตั้งค่าการแสดงผล จำนวนสินค้าที่ขายแล้ว"
+
+#: includes/class-wsud-settings.php:33
+msgid "The following options for configure unit sold display settings"
+msgstr "ตั้งค่าการแสดงผล จำนวนสินค้าที่ขายแล้ว ในหน้าเว็บไซต์"
+
+#: includes/class-wsud-settings.php:37
+msgid "Show on Single Product"
+msgstr "แสดงบนหน้าสินค้า"
+
+#: includes/class-wsud-settings.php:38
+msgid "Show product unit sold on single product page"
+msgstr "แสดงบนหน้ารายละเอียดสินค้า"
+
+#: includes/class-wsud-settings.php:46
+msgid "Show on Product List/Archive"
+msgstr "แสดงบนหน้ารายการสินค้า"
+
+#: includes/class-wsud-settings.php:47
+msgid "Show product unit sold on product list/archive page"
+msgstr "แสดงบนหน้ารายการสินค้าที่มีสินค้าหลายชิ้น"
+
+#: includes/class-wsud-settings.php:55
+msgid "Hide when zero sales"
+msgstr "ซ่อนเมื่อขายได้ 0 ชิ้น"
+
+#: includes/class-wsud-settings.php:56
+msgid "Hide the unit sold display when zeros sales"
+msgstr "ไม่แสดงจำนวนที่ขายของรายการที่ขายได้ 0 ชิ้น"
+
+#: includes/class-wsud-settings.php:64
+msgid "Prefix Text"
+msgstr "คำนำหน้า"
+
+#: includes/class-wsud-settings.php:65
+msgid ""
+"The text for prefix before number. for example 'sold x units', 'sold' means "
+"the text here. "
+msgstr ""
+"ข้อความนำหน้า ก่อนตัวเลข ที่จะแสดง ตัวอย่าง เช่น ‘ขายแล้ว x ชิ้น’ การตั้งค่านี้คือ คำว่า "
+"ขายแล้ว. "
+
+#: includes/class-wsud-settings.php:76
+msgid "Unit Text"
+msgstr "ข้อความหน่วย"
+
+#: includes/class-wsud-settings.php:77
+msgid ""
+"The text for product unit. for example 'sold x units', 'units' means the "
+"text here. "
+msgstr ""
+"ข้อความที่ใช้แสดงหน่วยที่ขายได้  ตัวอย่าง เช่น ‘ขายแล้ว x ชิ้น’ การตั้งค่านี้คือ คำว่า ชิ้น. "
+
+#: includes/class-wsud-settings.php:88
+msgid "Background color"
+msgstr "สีพื้นหลัง"
+
+#. translators: %s: default color
+#: includes/class-wsud-settings.php:90
+#, php-format
+msgid "The background color for unit sold display. Default %s."
+msgstr "สีพื้นหลัง สำหรับพื้นที่ที่ใช้แสดง จำนวนยอดที่ขายไปแล้ว ค่าเริ่มต้นคือ %s."
+
+#: includes/class-wsud-settings.php:100
+msgid "Background Opacity"
+msgstr "ความโปร่งแสงของพื้นหลัง"
+
+#: includes/class-wsud-settings.php:101
+msgid "The opacity of unit sold display background"
+msgstr "ความโปร่งแสงของพื้นหลังที่ใช้แสดง จำนวนที่ขายแล้ว"
+
+#: includes/class-wsud-settings.php:116
+msgid "Text color"
+msgstr "สีข้อความ"
+
+#. translators: %s: default color
+#: includes/class-wsud-settings.php:118
+#, php-format
+msgid "The text color for unit sold display. Default %s."
+msgstr "สีของข้อความ ที่ใช้แสดง จำนวนที่ขายแล้ว ค่าเริ่มต้น คือ %s."
+
+#: includes/class-wsud-settings.php:128
+msgid "Text Opacity"
+msgstr "ความโปร่งแสงของข้อความ"
+
+#: includes/class-wsud-settings.php:129
+msgid "The opacity of unit sold display text"
+msgstr "ปรับแต่งความโปร่งแสงของข้อความ ที่ใช้แสดง จำนวนที่ขายแล้ว"
+
+#: includes/class-wsud-settings.php:144
+msgid "Font Size (px)"
+msgstr "ขนาดอักษร (px)"
+
+#: includes/class-wsud-settings.php:145
+msgid "Font size for unit sold box. unit in px."
+msgstr "ขนาดของตัวอักษร ที่ใช้ในการแสดง จำนวนที่ขายแล้ว หน่วยเป็น px."
+
+#: includes/class-wsud-settings.php:160
+msgid "Vertical Padding (px)"
+msgstr "ช่องว่างแนวตั้ง (px)"
+
+#: includes/class-wsud-settings.php:161
+msgid "add vertical padding to unit sold box. unit in px."
+msgstr "เพิ่มช่องว่างในแนวตั้ง ของ การแสดงจำนวนที่ขายแล้ว  หน่วยเป็น px."
+
+#: includes/class-wsud-settings.php:176
+msgid "Horizontal Padding (px)"
+msgstr "ช่องว่างแนวนอน (px)"
+
+#: includes/class-wsud-settings.php:177
+msgid "add horizontal padding to unit sold box. unit in px."
+msgstr "เพิ่มช่องว่างในแนวนอน ของ การแสดงจำนวนที่ขายแล้ว หน่วยเป็น px."
+
+#: includes/class-wsud-settings.php:192
+msgid "Margin Top (px)"
+msgstr "ระยะขอบบน (px)"
+
+#: includes/class-wsud-settings.php:193
+msgid "add margin top to unit sold box. unit in px."
+msgstr "ระยะห่างระหว่าง ส่วนแสดงจำนวนที่ขายแล้ว กับ ส่วนก่อนหน้า หน่วยเป็น px."
+
+#: includes/class-wsud-settings.php:208
+msgid "Margin Bottom (px)"
+msgstr "ระยะขอบล่าง (px)"
+
+#: includes/class-wsud-settings.php:209
+msgid "add margin bottom to unit sold box. unit in px."
+msgstr "ระยะห่างระหว่าง ส่วนแสดงจำนวนที่ขายแล้ว กับ ส่วนถัดไป หน่วยเป็น px."
+
+#: includes/class-wsud-settings.php:224
+msgid "Alignment"
+msgstr "จากจัดวาง"
+
+#: includes/class-wsud-settings.php:225
+msgid "align unit sold box to left right center."
+msgstr "การจัดวางตำแหน่งของ การแสดงจำนวนที่ขายแล้ว."
+
+#: includes/class-wsud-settings.php:232
+msgid "Left"
+msgstr "ซ้าย"
+
+#: includes/class-wsud-settings.php:233
+msgid "Right"
+msgstr "ขวา"
+
+#: includes/class-wsud-settings.php:234
+msgid "Center"
+msgstr "กึ่งกลาง"
+
+#. Plugin Name of the plugin/theme
+msgid "Wc Sold Unit Display"
+msgstr "Wc Sold Unit Display"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://palamike.com"
+msgstr "https://palamike.com"
+
+#. Description of the plugin/theme
+msgid "Show the number of product unit sold on frontend."
+msgstr "แสดง ตัวเลข จำนวนสินค้าที่ขายแล้ว บนหน้า เว็บไซต์."
+
+#. Author of the plugin/theme
+msgid "palagorn.p"
+msgstr "palagorn.p"
